@@ -1,6 +1,6 @@
 ## 1 Clone/Download Repository
 ```
-git clone https://github.com/darshandomadiya/laravel-emp.git
+git clone https://github.com/darshandomadiya/laravel_1.git
 ```
 
 ## 2 Run composer update
@@ -9,7 +9,7 @@ composer update
 ```
 ## 3 Create Database
 ```
-create database laravel_emp;
+create database laravel1;
 ```
 ## 4 Run migration
 ```
@@ -23,9 +23,9 @@ sudo chmod 777 -R public/images/ (Create images directory if not created automat
 ## 6 Create Virtual Host
 ```
 <VirtualHost *:80>
-	DocumentRoot /var/www/html/laravel-emp/public
-	ServerName   local.laravelemp.com
-	<Directory "/var/www/html/laravel-emp/public">
+	DocumentRoot /var/www/html/laravel_1/public
+	ServerName   local.laravel1.com
+	<Directory "/var/www/html/laravel_1/public">
 		AllowOverride All
 		Options Indexes FollowSymLinks MultiViews
 		Order allow,deny
@@ -43,5 +43,5 @@ sudo chmod 777 -R public/images/ (Create images directory if not created automat
 ```
 sudo service apache2 restart
 ```
-## 9 open browser and hit local.laravelemp.com
+## 9 open browser and hit local.laravel1.com
 Enjoy!!
